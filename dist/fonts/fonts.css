@@ -11,6 +11,7 @@
     font-weight: 300;
     font-style: normal;
 }
+
 @font-face {
     font-family: 'Lato';
     src: url('../fonts/Lato-Regular.eot');
@@ -20,6 +21,7 @@
     font-weight: normal;
     font-style: normal;
 }
+
 @font-face {
     font-family: 'Lato';
     src: url('../fonts/Lato-Bold.eot');
@@ -29,6 +31,7 @@
     font-weight: 700;
     font-style: normal;
 }
+
 @font-face {
     font-family: 'Lato';
     src: url('../fonts/Lato-Bold.eot');
@@ -38,6 +41,7 @@
     font-weight: 900;
     font-style: normal;
 }
+
 @font-face {
     font-family: 'Merriweather';
     src: url('../fonts/Merriweather-Bold.eot');
@@ -47,6 +51,7 @@
     font-weight: 700;
     font-style: normal;
 }
+
 @font-face {
     font-family: 'Merriweather';
     src: url('../fonts/Merriweather-Bold.eot');
@@ -56,6 +61,7 @@
     font-weight: 900;
     font-style: normal;
 }
+
 @font-face {
     font-family: 'Merriweather';
     src: url('../fonts/Merriweather-Regular.eot');
