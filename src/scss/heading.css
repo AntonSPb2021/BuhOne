@@ -1,0 +1,10 @@
+.heading__background {
+  position: absolute;
+  width: 1920px;
+  height: 670px;
+  left: 0;
+  top: 20px;
+  background: url("/src/img/background.png") no-repeat center;
+}
+
+/*# sourceMappingURL=heading.css.map */

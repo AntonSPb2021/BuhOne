@@ -1,0 +1,68 @@
+@import "functionFontSize";
+@import "funcWidth";
+
+.services {
+  
+  &__column {
+    flex-direction: column;
+    
+    @media (max-width: 992px){
+      align-items: center;
+    }
+    
+    & h3 {
+      margin-top: 140px;
+      font-size: rem(24px);
+      font-weight: 900;
+    }
+    
+    & h2 {
+      margin: 40px 0 72px 0;
+      font-family: 'Merriweather', sans-serif;
+      font-weight: 900;
+      font-size: rem(48px);
+    }
+    
+    .services__items {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 30px;
+  
+      @media (max-width: 992px){
+        flex-wrap: wrap;
+        flex-direction: column;
+      }
+      
+      & p {
+        font-size: rem(24px);
+        font-weight: 900;
+        margin: 261px 118px 45px 45px;
+      }
+      
+      &-blue {
+        width: width(350px);
+        height: 360px;
+        background-image: url('../img/buhsix.png');
+        background-size: cover;
+  
+        @media (max-width: 992px){
+          width: auto;
+          margin-bottom: 30px;
+        }
+      }
+      
+      &-blck {
+        width: width(350px);
+        height: 360px;
+        background-image: url('../img/buhblacksix.png');
+        background-size: cover;
+  
+        @media (max-width: 992px){
+          width: auto;
+          margin-bottom: 30px;
+        }
+      }
+    }
+  }
+}
+

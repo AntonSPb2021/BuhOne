@@ -1,0 +1,12 @@
+$root-container-width: 1116px;
+@function width($size) {
+  @return $size/$root-container-width * 100%;
+}
+$root-container-width-half: 558px;
+@function width-half($size) {
+  @return ($size/$root-container-width-half) * 100%;
+}
+
+//html,body {
+//  font-size: ($root-font-size / 14px) * 100%;
+//}

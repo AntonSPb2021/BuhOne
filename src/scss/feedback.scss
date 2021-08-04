@@ -1,0 +1,110 @@
+@import "functionFontSize";
+@import "funcWidth";
+
+.feedback {
+  
+  &__column.container {
+    @media (max-width: 992px) {
+      max-width: 600px;
+    }
+    
+    @media (max-width: 776px) {
+      max-width: 600px;
+    }
+  }
+  
+  &__column {
+    flex-direction: column;
+    justify-content: flex-start;
+    
+    & h3 {
+      margin-top: 100px;
+      font-weight: 900;
+      font-size: rem(24px);
+    }
+    
+    & h2 {
+      margin: 40px 0 0 2px;
+      font-family: 'Merriweather', sans-serif;
+      font-weight: 900;
+      font-size: rem(48px);
+    }
+    
+    .feedback__content {
+      width: width(1110px);
+      margin-top: 80px;
+  
+      @media (max-width: 776px) {
+        margin-top: 50px;
+      }
+    
+      
+      p {
+        width: width(920px);
+        margin: 45px 0 58px 95px;
+        font-weight: 300;
+        font-size: rem(18px);
+        line-height: 25px;
+  
+        @media (max-width: 776px) {
+          margin: 10px auto;
+        }
+      }
+      
+      &-line {
+        display: flex;
+        margin: 0 0 45px 95px;
+        
+        .feedback__content-info {
+          margin-left: 35px;
+          
+          h5 {
+            margin-bottom: 10px;
+            font-weight: 900;
+            font-size: rem(18px);
+            line-height: 25px;
+          }
+        }
+      }
+    }
+    
+    .feedback__line {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 50px;
+     
+      &-circle {
+        display: flex;
+        padding-top: 40px;
+      }
+      
+      &-item {
+        width: 10px;
+        height: 10px;
+        border-radius: 5px;
+        opacity: 40%;
+
+        &:nth-child(n + 2):nth-child(-n + 4) {
+          margin-left: 40px;
+        }
+
+        &.feedback__line-act {
+          opacity: 100%;
+        }
+      }
+      .feedback__arrow {
+        margin-bottom: 100px;
+
+        &-left {
+          opacity: 80%;
+        }
+
+        &-right {
+          margin: 0 -2.5px;
+          opacity: 100%;
+        }
+      }
+    }
+  }
+  
+}

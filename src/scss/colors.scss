@@ -1,0 +1,133 @@
+html, body {
+  color: #000;
+}
+
+.buh {
+  background: #F9F9F9;
+  
+  & a {
+    color: #000;
+  }
+  
+  .buh__burger {
+    & span {
+      background-color: #000;
+    }
+    &:before {
+      background-color: #000;
+    }
+    
+    &:after {
+      background-color: #000;
+    }
+  }
+}
+
+.heading {
+  & h1 {
+    color: #fff;
+  }
+  
+  &__btn_sub {
+    color: #fff;
+    background-color: #005FA3;
+  }
+  
+  &__arrow-item {
+    background-color: #fff;
+  }
+}
+
+.services {
+  background: #EBEBEB;
+  
+  & h3 {
+    color: #BDBDBD;
+  }
+  
+  & p {
+    color: #fff;
+  }
+}
+
+.about {
+  background: #F9F9F9;
+  
+  &__items-grey a {
+    color: #005FA3;
+  }
+  
+  &__items-blue a {
+    color: #fff;
+  }
+  
+  & h3 {
+    color: #BDBDBD;
+  }
+  
+  &__main span {
+    color: #005FA3;
+  }
+  
+  .about__items {
+    &-grey {
+      background: #EBEBEB;
+    }
+    
+    &-blue {
+      background: #005FA3;
+    }
+  }
+}
+
+.client {
+  background-color: #EBEBEB;
+  
+  & h3 {
+    color: #BDBDBD;
+  }
+  .client__mcr{
+    
+    &-item {
+      background-color:  #005FA3;
+    }
+  }
+}
+
+.feedback {
+  background-color: #F9F9F9;
+  
+  & h3 {
+    color: #BDBDBD;
+  }
+  &__content {
+   background-color: #EBEBEB;
+  }
+  .feedback__line {
+    &-item {
+      background-color:  #005FA3;
+    }
+  }
+}
+
+.footer {
+  
+  &__main {
+    color: #fff;
+  }
+  
+  &__info a {
+    color: #fff;
+  }
+  
+  &__form {
+    color: #fff;
+    h5 {
+      color: #BDBDBD;
+    }
+  }
+  .footer__btn {
+    background-color: #005FA3;
+    color: #fff;
+  }
+}

@@ -1,0 +1,8 @@
+$root-font-size: 14px;
+@function rem($size) {
+  @return $size/$root-font-size * 1rem;
+}
+
+html,body {
+  font-size: ($root-font-size / 14px) *100%;
+}

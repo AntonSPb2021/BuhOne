@@ -1,0 +1,139 @@
+@import "functionFontSize";
+@import "funcWidth";
+
+
+.about {
+  
+  &__wrap {
+    flex-wrap: wrap;
+    align-content: flex-start;
+  
+    @media (max-width: 992px) {
+      flex-wrap: wrap;
+    }
+    
+    @media (max-width: 776px) {
+      flex-wrap: wrap;
+    }
+  }
+  
+  &__wrap.container {
+  
+    @media (max-width: 992px) {
+      max-width: 600px;
+    }
+    
+    @media (max-width: 776px) {
+      max-width: 600px;
+    }
+  }
+  
+  &__me {
+    width: width(1116px);
+    margin-top: 140px;
+    font-size: rem(24px);
+    font-weight: 900;
+    line-height: 33px;
+    
+    & h3 {
+      width: width(1116px);
+      font-size: rem(24px);
+      font-weight: 900;
+    }
+  }
+  
+  &__main {
+    width: width(558px);
+    margin-top: 30px;
+  
+    @media (max-width: 992px) {
+      width: 100%;
+    }
+    
+    @media (max-width: 776px) {
+      width: 100%;
+    }
+    
+    & h2 {
+      padding-left: 2px;
+      width: width(347px);
+      line-height: 69px;
+      font-family: 'Merriweather', sans-serif;
+      font-weight: 900;
+      font-size: rem(48px);
+    }
+    
+    & p {
+      margin-top: 60px;
+      margin-bottom: 219px;
+      font-size: rem(18px);
+      font-weight: 300;
+      width: width-half(445px);
+      line-height: 25px;
+  
+      @media (max-width: 992px) {
+        margin-bottom: 30px;
+      }
+      
+      @media (max-width: 776px) {
+        margin-bottom: 30px;
+      }
+    }
+  }
+  
+  &__case {
+    width: width(558px);
+  
+    @media (max-width: 992px) {
+      width: 100%;
+    }
+    
+    @media (max-width: 776px) {
+      width: 100%;
+    }
+    
+    h2 {
+      margin: 30px 0 0 40px;
+      font-size: rem(55px);
+      line-height: 66px;
+      font-weight: 900;
+    }
+    
+    p {
+      margin: 30px 0 47px 40px;
+      font-weight: 700;
+      font-size: rem(14px);
+      line-height: 18px;
+    }
+    
+    a {
+      margin: 47px 0 0 40px;
+      font-weight: 700;
+      font-size: rem(14px);
+      line-height: 17px;
+      text-decoration: underline;
+    }
+  }
+  
+  &__items {
+    display: flex;
+    justify-content: space-between;
+  
+    @media (max-width: 992px) {
+      margin-bottom: 30px;
+    }
+    
+    @media (max-width: 776px) {
+      margin-bottom: 30px;
+    }
+    
+    &:nth-last-child(1) {
+      margin-top: 30px;
+    }
+    
+    & li {
+      width: width-half(262.5px);
+      height: 255px;
+    }
+  }
+}
