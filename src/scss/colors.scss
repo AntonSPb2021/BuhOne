@@ -10,15 +10,19 @@ html, body {
   }
   
   .buh__burger {
-    & span {
-      background-color: #000;
+  
+    & span, & span::before,
+    & span::after {
+      background-color: #616161;
     }
-    &:before {
-      background-color: #000;
+  
+    .buh__item:hover {
+      background-color: #CFD8DC;
+      
     }
     
-    &:after {
-      background-color: #000;
+    .buh__box {
+      background-color: #ECEFF1;
     }
   }
 }
