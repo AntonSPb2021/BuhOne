@@ -4,9 +4,8 @@
 
 .about {
   
-  &__wrap {
+  .about__wrap {
     flex-wrap: wrap;
-    align-content: flex-start;
   
     @media (max-width: 992px) {
       flex-wrap: wrap;
@@ -36,9 +35,9 @@
     }
     
     & h3 {
-      width: width(1116px);
-      font-size: rem(24px);
-      font-weight: 900;
+      //width: width(1116px);
+      //font-size: rem(24px);
+      //font-weight: 900;
       padding-left: 5px;
   
       @media (max-width: 415px){
@@ -61,7 +60,7 @@
     
     & h2 {
       padding-left: 2px;
-      width: width(347px);
+      //width: width(347px);
       line-height: 69px;
       font-family: 'Merriweather', sans-serif;
       font-weight: 900;

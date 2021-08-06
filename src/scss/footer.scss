@@ -2,13 +2,10 @@
 @import "functionFontSize";
 
 .footer {
-  margin: 0 auto;
   background: url('../img/blackBackground.png');
   background-size: cover;
   
   &__row {
-    justify-content: space-between;
-  
     @media (max-width: 992px) {
       flex-wrap: wrap;
       flex-direction: column;
@@ -21,7 +18,6 @@
   }
   
   &__row.container {
-  
     @media (max-width: 992px) {
       max-width: 600px;
     }

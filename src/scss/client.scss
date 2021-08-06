@@ -15,7 +15,6 @@
   
   &__column {
     flex-direction: column;
-    justify-content: flex-start;
     
     & h3 {
       margin-top: 100px;
@@ -61,7 +60,6 @@
         display: flex;
         justify-content: space-between;
         margin-top: 50px;
-        width: width(1116px);
   
         @media (max-width: 415px){
           flex-direction: column;
@@ -95,8 +93,6 @@
       }
     
       .client__arrow {
-        display: flex;
-        justify-content: flex-end;
         margin-bottom: 100px;
       
         &-left {

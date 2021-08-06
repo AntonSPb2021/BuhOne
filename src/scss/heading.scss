@@ -7,8 +7,6 @@
   
   &__column {
     flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
     
     @media (max-width: 992px) {
       flex-direction: column;
@@ -43,7 +41,6 @@
   .heading__arrow {
     display: flex;
     justify-content: space-between;
-    width: 100%;
     
     @media (max-width: 992px) {
       display: flex;

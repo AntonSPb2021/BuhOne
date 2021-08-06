@@ -201,7 +201,7 @@ html, body {
 }
 
 .buh {
-  padding: 20px;
+  padding: 20px 5px;
 }
 .buh nav {
   display: flex;
@@ -323,7 +323,6 @@ html, body {
   display: flex;
   justify-content: flex-end;
   text-transform: uppercase;
-  font-size: 1rem;
   width: 100%;
 }
 .buh__link li {
@@ -349,8 +348,6 @@ html, body {
 }
 .heading__column {
   flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
 }
 @media (max-width: 992px) {
   .heading__column {
@@ -383,7 +380,6 @@ html, body {
 .heading .heading__arrow {
   display: flex;
   justify-content: space-between;
-  width: 100%;
 }
 @media (max-width: 992px) {
   .heading .heading__arrow {
@@ -510,12 +506,11 @@ html, body {
   font-size: 100%;
 }
 
-.about__wrap {
+.about .about__wrap {
   flex-wrap: wrap;
-  align-content: flex-start;
 }
 @media (max-width: 992px) {
-  .about__wrap {
+  .about .about__wrap {
     flex-wrap: wrap;
   }
 }
@@ -542,9 +537,6 @@ html, body {
   }
 }
 .about__me h3 {
-  width: 100%;
-  font-size: 1.7142857143rem;
-  font-weight: 900;
   padding-left: 5px;
 }
 @media (max-width: 415px) {
@@ -568,7 +560,6 @@ html, body {
 }
 .about__main h2 {
   padding-left: 2px;
-  width: 31.0931899642%;
   line-height: 69px;
   font-family: "Merriweather", sans-serif;
   font-weight: 900;
@@ -683,7 +674,6 @@ html, body {
 }
 .client__column {
   flex-direction: column;
-  justify-content: flex-start;
 }
 .client__column h3 {
   margin-top: 100px;
@@ -728,7 +718,6 @@ html, body {
   display: flex;
   justify-content: space-between;
   margin-top: 50px;
-  width: 100%;
 }
 @media (max-width: 415px) {
   .client__column .client__mcr .client__mcr-line {
@@ -759,8 +748,6 @@ html, body {
   margin-left: 40px;
 }
 .client__column .client__mcr .client__arrow {
-  display: flex;
-  justify-content: flex-end;
   margin-bottom: 100px;
 }
 .client__column .client__mcr .client__arrow-left {
@@ -793,7 +780,6 @@ html, body {
 }
 .feedback__column {
   flex-direction: column;
-  justify-content: flex-start;
 }
 .feedback__column h3 {
   margin-top: 100px;
@@ -926,12 +912,8 @@ html, body {
 }
 
 .footer {
-  margin: 0 auto;
   background: url("../img/blackBackground.png");
   background-size: cover;
-}
-.footer__row {
-  justify-content: space-between;
 }
 @media (max-width: 992px) {
   .footer__row {
