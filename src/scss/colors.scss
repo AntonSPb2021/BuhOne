@@ -7,18 +7,17 @@ html, body {
   
   & a {
     color: #000;
+    
+    &:hover {
+      color: #005FA3
+    }
   }
   
   .buh__burger {
-  
+    
     & span, & span::before,
     & span::after {
       background-color: #616161;
-    }
-  
-    .buh__item:hover {
-      background-color: #CFD8DC;
-      
     }
     
     .buh__box {
@@ -52,6 +51,17 @@ html, body {
   & p {
     color: #fff;
   }
+  
+  .services__items {
+    
+    &-blck {
+      background: url('../img/buhblacksix.png');
+      
+      &:hover {
+        background: url('../img/buhsix.png');
+      }
+    }
+  }
 }
 
 .about {
@@ -59,10 +69,6 @@ html, body {
   
   &__items-grey a {
     color: #005FA3;
-  }
-  
-  &__items-blue a {
-    color: #fff;
   }
   
   & h3 {
@@ -74,12 +80,22 @@ html, body {
   }
   
   .about__items {
-    &-grey {
-      background: #EBEBEB;
+  
+    .about-blue {
+      color: #005FA3;
+      
     }
     
-    &-blue {
-      background: #005FA3;
+    &-grey {
+      background: #EBEBEB;
+      
+      &:hover {
+        background: #005FA3;
+        color: #fff;
+      }
+      //& a {
+      //  color: #fff;
+      //}
     }
   }
 }

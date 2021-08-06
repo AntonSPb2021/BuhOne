@@ -21,6 +21,12 @@
       margin-top: 100px;
       font-weight: 900;
       font-size: rem(24px);
+      padding-left: 5px;
+  
+      @media (max-width: 415px){
+        font-size: rem(18px);
+        margin-top: 50px;
+      }
     }
     
     & h2 {
@@ -28,6 +34,10 @@
       font-family: 'Merriweather', sans-serif;
       font-weight: 900;
       font-size: rem(48px);
+  
+      @media (max-width: 415px){
+        font-size: rem(24px);
+      }
     }
     
     .feedback__content {
@@ -37,7 +47,6 @@
       @media (max-width: 776px) {
         margin-top: 50px;
       }
-    
       
       p {
         width: width(920px);
@@ -49,11 +58,19 @@
         @media (max-width: 776px) {
           margin: 10px auto;
         }
+  
+        @media (max-width: 415px){
+          font-size: rem(12px);
+        }
       }
       
       &-line {
         display: flex;
         margin: 0 0 45px 95px;
+  
+        @media (max-width: 415px){
+          margin: 0 20px;
+        }
         
         .feedback__content-info {
           margin-left: 35px;
@@ -63,6 +80,10 @@
             font-weight: 900;
             font-size: rem(18px);
             line-height: 25px;
+  
+            @media (max-width: 415px){
+              font-size: rem(12px);
+            }
           }
         }
       }
@@ -72,10 +93,20 @@
       display: flex;
       justify-content: space-between;
       margin-top: 50px;
+      
+      @media (max-width: 415px){
+        flex-direction: column;
+        align-items: center;
+      }
      
       &-circle {
         display: flex;
         padding-top: 40px;
+        cursor: pointer;
+        
+        @media (max-width: 415px){
+          margin-bottom: 33px;
+        }
       }
       
       &-item {
@@ -83,25 +114,34 @@
         height: 10px;
         border-radius: 5px;
         opacity: 40%;
+  
+        &:hover {
+          opacity: 100%;
+        }
 
         &:nth-child(n + 2):nth-child(-n + 4) {
           margin-left: 40px;
         }
-
-        &.feedback__line-act {
-          opacity: 100%;
-        }
       }
+      
       .feedback__arrow {
         margin-bottom: 100px;
-
+        
         &-left {
           opacity: 80%;
+  
+          &:hover {
+            opacity: 100%;
+          }
         }
 
         &-right {
           margin: 0 -2.5px;
-          opacity: 100%;
+          opacity: 20%;
+  
+          &:hover {
+            opacity: 100%;
+          }
         }
       }
     }

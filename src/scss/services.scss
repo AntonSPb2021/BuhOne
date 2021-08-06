@@ -6,31 +6,44 @@
   &__column {
     flex-direction: column;
     
-    @media (max-width: 992px){
-      align-items: center;
-    }
-    
     & h3 {
-      margin-top: 140px;
+      margin: 140px 0 0 5px;
       font-size: rem(24px);
       font-weight: 900;
+  
+      @media (max-width: 415px){
+        font-size: rem(18px);
+        margin: 40px 0 0 5px;
+      }
     }
     
     & h2 {
-      margin: 40px 0 72px 0;
+      margin: 40px 0 72px 5px;
       font-family: 'Merriweather', sans-serif;
       font-weight: 900;
       font-size: rem(48px);
+  
+      @media (max-width: 415px){
+        font-size: rem(24px);
+        margin: 40px 0 20px 5px;
+      }
     }
     
     .services__items {
       display: flex;
-      justify-content: space-between;
+      justify-content: space-around;
       margin-top: 30px;
-  
+      flex-wrap: wrap;
+      cursor: pointer;
+      
       @media (max-width: 992px){
         flex-wrap: wrap;
-        flex-direction: column;
+        justify-content: space-around;
+      }
+  
+      @media (max-width: 776px){
+        flex-wrap: wrap;
+        justify-content: space-around;
       }
       
       & p {
@@ -39,10 +52,9 @@
         margin: 261px 118px 45px 45px;
       }
       
-      &-blue {
+      &-blck {
         width: width(350px);
         height: 360px;
-        background-image: url('../img/buhsix.png');
         background-size: cover;
   
         @media (max-width: 992px){
@@ -51,16 +63,8 @@
         }
       }
       
-      &-blck {
-        width: width(350px);
-        height: 360px;
-        background-image: url('../img/buhblacksix.png');
-        background-size: cover;
-  
-        @media (max-width: 992px){
-          width: auto;
-          margin-bottom: 30px;
-        }
+      .top {
+        margin-bottom: 30px;
       }
     }
   }

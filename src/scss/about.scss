@@ -11,10 +11,6 @@
     @media (max-width: 992px) {
       flex-wrap: wrap;
     }
-    
-    @media (max-width: 776px) {
-      flex-wrap: wrap;
-    }
   }
   
   &__wrap.container {
@@ -34,11 +30,20 @@
     font-size: rem(24px);
     font-weight: 900;
     line-height: 33px;
+  
+    @media (max-width: 415px){
+      margin-top: 40px;
+    }
     
     & h3 {
       width: width(1116px);
       font-size: rem(24px);
       font-weight: 900;
+      padding-left: 5px;
+  
+      @media (max-width: 415px){
+        font-size: rem(18px);
+      }
     }
   }
   
@@ -61,6 +66,11 @@
       font-family: 'Merriweather', sans-serif;
       font-weight: 900;
       font-size: rem(48px);
+  
+      @media (max-width: 415px) {
+        font-size: rem(24px);
+        line-height: 29px;
+      }
     }
     
     & p {
@@ -70,6 +80,7 @@
       font-weight: 300;
       width: width-half(445px);
       line-height: 25px;
+      margin-left: 10px;
   
       @media (max-width: 992px) {
         margin-bottom: 30px;
@@ -78,14 +89,21 @@
       @media (max-width: 776px) {
         margin-bottom: 30px;
       }
+  
+      @media (max-width: 415px){
+        font-size: rem(12px);
+        margin-top: 30px;
+      }
     }
   }
   
   &__case {
     width: width(558px);
+    padding: 0 5px;
   
     @media (max-width: 992px) {
       width: 100%;
+      padding-right: 5px;
     }
     
     @media (max-width: 776px) {
@@ -97,6 +115,10 @@
       font-size: rem(55px);
       line-height: 66px;
       font-weight: 900;
+  
+      @media (max-width: 415px){
+        font-size: rem(24px);
+      }
     }
     
     p {
@@ -117,7 +139,8 @@
   
   &__items {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    cursor: pointer;
   
     @media (max-width: 992px) {
       margin-bottom: 30px;
