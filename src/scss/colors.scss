@@ -2,41 +2,60 @@ html, body {
   color: #000;
 }
 
-.buh {
+.header {
   background: #F9F9F9;
   
-  & a {
+  .header-info__link {
     color: #000;
     
     &:hover {
-      color: #005FA3
+      color: #005FA3;
     }
   }
   
-  .buh__burger {
+  .header-list__link {
+    color: #000;
     
-    & span, & span::before,
-    & span::after {
-      background-color: #616161;
-    }
-    
-    .buh__box {
-      background-color: #ECEFF1;
+    &:hover {
+      color: #005FA3;
     }
   }
-}
+  
+  .button > span,
+  .button > span::before,
+  .button > span::after {
+    background-color: #616161;
+  }
+    
+    .box {
+      background-color: #F9F9F9;
+      
+      &__item {
+        color: #333;
+        
+        &:hover {
+          background-color: #616161;
+        }
+      }
+      
+      &__link {
+        color: #000;
+      }
+    }
+  }
 
-.heading {
-  & h1 {
+.preview {
+  
+  .description__title {
     color: #fff;
   }
   
-  &__btn_sub {
+  .button-preview__text {
     color: #fff;
     background-color: #005FA3;
   }
   
-  &__arrow-item {
+  .point__item {
     background-color: #fff;
   }
 }
@@ -44,113 +63,108 @@ html, body {
 .services {
   background: #EBEBEB;
   
-  & h3 {
+  .specialization__title-services {
     color: #BDBDBD;
   }
   
-  & p {
+  .accounting__description {
     color: #fff;
   }
   
-  .services__items {
+  .accounting__items {
+    background: url('../img/buhblacksix.png');
     
-    &-blck {
-      background: url('../img/buhblacksix.png');
-      
-      &:hover {
-        background: url('../img/buhsix.png');
-      }
+    &:hover {
+      background: url('../img/buhsix.png');
     }
   }
 }
 
-.about {
+.about-company {
   background: #F9F9F9;
   
-  &__items-grey a {
-    color: #005FA3;
-  }
-  
-  & h3 {
+  .about-us__title {
     color: #BDBDBD;
   }
   
-  &__main span {
+  .about-main__subtitle:hover {
     color: #005FA3;
   }
   
-  .about__items {
-  
-    .about-blue {
-      color: #005FA3;
-      
-    }
-    
-    &-grey {
-      background: #EBEBEB;
-      
-      &:hover {
-        background: #005FA3;
-        color: #fff;
-      }
-      //& a {
-      //  color: #fff;
-      //}
+  .transactions__item  {
+    background: #EBEBEB;
+ 
+    &:hover {
+      background: #005FA3;
+      color: #fff;
     }
   }
+  
+  .transactions__title:hover {
+    color: #fff;
+  }
+  
+  .transactions__link {
+    color: #005FA3;
+    
+    &:hover {
+      color: #fff;
+    }
+  }
+  
+
+  
+  
 }
 
 .client {
   background-color: #EBEBEB;
   
-  & h3 {
+  .work__title-top {
     color: #BDBDBD;
   }
-  .client__mcr{
-    
-    &-item {
+
+  .point__item {
       background-color:  #005FA3;
     }
   }
-}
 
 .feedback {
-  background-color: #F9F9F9;
-  
-  & h3 {
-    color: #BDBDBD;
+background-color: #F9F9F9;
+
+.gratitude__title-top {
+  color: #BDBDBD;
+}
+
+.business-card {
+ background-color: #EBEBEB;
+}
+
+  .point__item {
+    background-color:  #005FA3;
   }
-  
-  &__content {
-   background-color: #EBEBEB;
-  }
-  .feedback__line {
-    
-    &-item {
-      background-color:  #005FA3;
-    }
-  }
+
 }
 
 .footer {
   
-  &__main {
+  .info-card {
     color: #fff;
   }
   
-  &__info a {
+  .contact__link {
     color: #fff;
   }
   
-  &__form {
+  .data {
     color: #fff;
     
-    h5 {
+    .data__title {
       color: #BDBDBD;
     }
   }
   
-  .footer__btn {
+  .button-send {
     background-color: #005FA3;
     color: #fff;
   }

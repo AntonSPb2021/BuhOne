@@ -1,72 +1,79 @@
 @import "functionFontSize";
 @import "funcWidth";
 
-.services {
-  
-  &__column {
-    flex-direction: column;
+.specialization__title-services {
+    margin-top: rem(140px);
+    font-size: rem(24px);
+    font-weight: 900;
     
-    & h3 {
-      margin: 140px 0 0 5px;
-      font-size: rem(24px);
-      font-weight: 900;
-  
-      @media (max-width: 415px){
-        font-size: rem(18px);
-        margin: 40px 0 0 5px;
-      }
+    @media (max-width: 980px) {
+      font-size: rem(18px);
     }
-    
-    & h2 {
-      margin: 40px 0 72px 5px;
-      font-family: 'Merriweather', sans-serif;
-      font-weight: 900;
-      font-size: rem(48px);
   
-      @media (max-width: 415px){
-        font-size: rem(24px);
-        margin: 40px 0 20px 5px;
-      }
-    }
-    
-    .services__items {
-      display: flex;
-      justify-content: space-around;
-      margin-top: 30px;
-      flex-wrap: wrap;
-      cursor: pointer;
-      
-      @media (max-width: 992px){
-        flex-wrap: wrap;
-        justify-content: space-around;
-      }
-  
-      @media (max-width: 776px){
-        flex-wrap: wrap;
-        justify-content: space-around;
-      }
-      
-      & p {
-        font-size: rem(24px);
-        font-weight: 900;
-        margin: 261px 118px 45px 45px;
-      }
-      
-      &-blck {
-        width: width(350px);
-        height: 360px;
-        background-size: cover;
-  
-        @media (max-width: 992px){
-          width: auto;
-          margin-bottom: 30px;
-        }
-      }
-      
-      .top {
-        margin-bottom: 30px;
-      }
+    @media (max-width: 415px){
+      font-size: rem(16px);
     }
   }
+
+.specialization__title-specialization {
+    margin: rem(40px) 0 rem(102px) 0;
+    font-family: 'Merriweather', sans-serif;
+    font-weight: 900;
+    font-size: rem(48px);
+  
+    @media (max-width: 720px){
+      font-size: rem(26px);
+    }
+    
+    @media (max-width: 415px){
+      font-size: rem(20px);
+    }
+  }
+
+
+.services__specialization {
+    @media (max-width: 980px) {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+
+.accounting {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  cursor: pointer;
+  
+  @media (max-width: 1060px){
+    justify-content: space-around;
+  }
+  
+  &__items {
+    width: 350px;
+    height: 360px;
+    margin-bottom: rem(30px);
+  
+    @media (max-width: 350px){
+      width: 300px;
+    }
+    
+    &:last-child {
+      margin-bottom: rem(110px);
+    }
+  }
+  
+  .specialization__accounting {
+    margin-top: rem(30px);
+  }
+  
+  .accounting__description {
+    font-size: rem(24px);
+    font-weight: 900;
+    margin: rem(231px) rem(118px) rem(45px) rem(45px);
+  }
 }
+
+
 

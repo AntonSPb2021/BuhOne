@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="ru">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,200 +7,213 @@
     <link rel="stylesheet" href="../dist/fonts/fonts.css">
     <title>BuhOne</title>
 </head>
-
 <body>
-
-<header class="buh header">
+<header class="header">
     <div class="container">
         <div class="logo header__logo">
-            <a href="#" class="buh__logo logo-link">
-                <img class="buh__logo_label logo-link__label" src="img/logo.png" alt="логотип">
-                <img class="buh__logo_text logo-link__text" src="img/BuhOne.png" alt="название логотипа">
+            <a href="#" class="logo__link">
+                <img class="logo__label" src="img/logo.png" alt="логотип">
+                <img class="logo__text" src="img/BuhOne.png" alt="название логотипа">
             </a>
         </div>
         <nav class="navigation header__navigation">
-            <ul class="buh__info navigation__menu-top">
-                <li class="menu-top__item">
-                    <img class="menu-top__img" src="img/mobile.png" alt="телефон">
-                    <a class="menu-top__link" href="#" target="_blank">8 (111) 222-33-44</a>
+            <ul class="header-info navigation__menu-top">
+                <li class="header-info__item">
+                    <img class="header-info__img" src="img/mobile.png" alt="телефон">
+                    <a class="header-info__link" href="#" target="_blank">8 (111) 222-33-44</a>
                 </li>
-                <li class="menu-top__item">
-                    <img class="menu-top__img" src="img/clock.png" alt="время работы">
-                    <a class="menu-top__link" href="#" target="_blank">Пн-Пт 10:00-18:00</a>
+                <li class="header-info__item">
+                    <img class="header-info__img" src="img/clock.png" alt="время работы">
+                    <a class="header-info__link" href="#" target="_blank">Пн-Пт 10:00-18:00</a>
                 </li>
-                <li class="menu-top__item">
-                    <img class="menu-top__img" src="img/mail.png" alt="почта">
-                    <a class="menu-top__link" href="#" target="_blank">order@buhone.ru</a>
+                <li class="header-info__item">
+                    <img class="header-info__img" src="img/mail.png" alt="почта">
+                    <a class="header-info__link" href="#" target="_blank">order@buhone.ru</a>
                 </li>
-                <li class="menu-top__item">
-                    <img class="menu-top__img" src="img/placeholder.png" alt="местоположение">
-                    <a class="menu-top__link" href="#" target="_blank">Невский пр. 130</a>
-                </li>
-            </ul>
-            <ul class="buh__link navigation__menu-bottom">
-                <li class="menu-bottom__item">
-                    <a class="menu-bottom__link" href="#" target="_blank">Главная</a>
-                </li>
-                <li class="menu-bottom__item">
-                    <a class="menu-bottom__link" href="#" target="_blank">Услуги</a>
-                </li>
-                <li class="menu-bottom__item">
-                    <a class="menu-bottom__link" href="#" target="_blank">Кейсы</a>
-                </li>
-                <li class="menu-bottom__item">
-                    <a class="menu-bottom__link" href="#" target="_blank">О компании</a>
-                </li>
-                <li class="menu-bottom__item">
-                    <a class="menu-bottom__link" href="#" target="_blank">Контакты</a>
+                <li class="header-info__item">
+                    <img class="header-info__img" src="img/placeholder.png" alt="местоположение">
+                    <a class="header-info__link" href="#" target="_blank">Невский пр. 130</a>
                 </li>
             </ul>
-            <div class="buh__burger burger header__burger">
-                <input class="burger__input" type="checkbox" id="buh__toggle">
-                <label for="buh__toggle" class="buh__burger_btn button burger__button">
+            <ul class="header-list navigation__menu-bottom">
+                <li class="header-list__item">
+                    <a class="header-list__link" href="#" target="_blank">Главная</a>
+                </li>
+                <li class="header-list__item">
+                    <a class="header-list__link" href="#" target="_blank">Услуги</a>
+                </li>
+                <li class="header-list__item">
+                    <a class="header-list__link" href="#" target="_blank">Кейсы</a>
+                </li>
+                <li class="header-list__item">
+                    <a class="header-list__link" href="#" target="_blank">О компании</a>
+                </li>
+                <li class="header-list__item">
+                    <a class="header-list__link" href="#" target="_blank">Контакты</a>
+                </li>
+            </ul>
+            <div class="burger navigation__burger">
+                <input id="burger__input" type="checkbox">
+                <label for="burger__input" class="button burger__button">
                     <span class="burger__span"></span>
                 </label>
-                <ul class="buh__box box-burger">
-                    <li class="box-burger__item"><a href="#" class="buh__item box-burger__link">Главная</a></li>
-                    <li class="box-burger__item"><a href="#" class="buh__item box-burger__link">Услуги</a></li>
-                    <li class="box-burger__item"><a href="#" class="buh__item box-burger__link">Кейсы</a></li>
-                    <li class="box-burger__item"><a href="#" class="buh__item box-burger__link">О компании</a></li>
-                    <li class="box-burger__item"><a href="#" class="buh__item box-burger__link">Контакты</a></li>
+                <ul class="box burger__box">
+                    <li class="box__item"><a href="#" class="box__link">Главная</a></li>
+                    <li class="box__item"><a href="#" class="box__link">Услуги</a></li>
+                    <li class="box__item"><a href="#" class="box__link">Кейсы</a></li>
+                    <li class="box__item"><a href="#" class="box__link">О компании</a></li>
+                    <li class="box__item"><a href="#" class="box__link">Контакты</a></li>
                 </ul>
             </div>
         </nav>
     </div>
 </header>
-
-<div class="heading">
-    <div class="container heading__column">
-        <div>
-            <h1>Бухгалтерские услуги
-                <br> в Санкт-Петербурге
-            </h1>
-        </div>
-        <div class="heading__btn">
-            <button class="heading__btn_sub" type="submit">Наша презентация</button>
-        </div>
-        <div class="heading__arrow">
-            <ul class="heading__arrow-circle">
-                <li class="heading__arrow-item"></li>
-                <li class="heading__arrow-item"></li>
-                <li class="heading__arrow-item"></li>
-                <li class="heading__arrow-item"></li>
-            </ul>
-            <ul class="arrow">
-                <li>
-                    <a href="#" target="_blank">
-                        <img class="arrow-left" src="img/slider__button-prev.png" alt="стрелка влево">
-                        <img class="arrow-right" src="img/slider__button-next.png" alt="стрелка вправо">
-                    </a>
-                </li>
-            </ul>
+<div class="preview">
+    <div class="container">
+        <div class="content preview__content">
+            <div class="description content__description">
+                <h1 class="description__title">
+                    Бухгалтерские услуги
+                    <br> в Санкт-Петербурге
+                </h1>
+            </div>
+            <div class="button-preview content__button-preview">
+                <button class="button-preview__text" type="submit">Наша презентация</button>
+            </div>
+            <div class="circles content__circles">
+                <ul class="point circles__point">
+                    <li class="point__item"></li>
+                    <li class="point__item"></li>
+                    <li class="point__item"></li>
+                    <li class="point__item"></li>
+                </ul>
+                <ul class="arrow circles__arrow">
+                    <li class="arrow__item">
+                        <a class="arrow__link" href="#" target="_blank">
+                            <img class="arrow__img-left" src="img/slider__button-prev.png" alt="стрелка влево">
+                            <img class="arrow__img-right" src="img/slider__button-next.png" alt="стрелка вправо">
+                        </a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </div>
 </div>
-
 <section class="services">
-    <div class="services__column container">
-        <h3>Наши услуги</h3>
-        <h2>Мы специализируемся</h2>
-        <ul class="services__items"> // services-items
-            <li class="services__items-blck top"> // service_items
-                <p>Бухгалтерское<br>обслуживание</p> // service_items__description
-            </li>
-            <li class="services__items-blck top">
-                <p>Бухгалтерское<br>обслуживание</p>
-            </li>
-            <li class="services__items-blck top">
-                <p>Бухгалтерское<br>обслуживание</p>
-            </li>
-            <li class="services__items-blck">
-                <p>Бухгалтерское<br>обслуживание</p>
-            </li>
-            <li class="services__items-blck">
-                <p>Бухгалтерское<br>обслуживание</p>
-            </li>
-            <li class="services__items-blck">
-                <p>Бухгалтерское<br>обслуживание</p>
-            </li>
-        </ul>
-    </div>
-</section>
-
-<section class="about">
-    <div class="about__wrap container">
-        <div class="about__me">
-            <h3>О нас</h3>
-        </div>
-        <div class="about__main">
-            <h2>Компания
-                <br> <span>ИвановПром</span>
-            </h2>
-            <p>Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является
-                стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник
-                создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem
-                Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный
-                дизайн.</p>
-        </div>
-        <div class="about__case">
-            <ul class="about__items">
-                <li class="about__items-grey">
-                    <h2>90</h2>
-                    <p>Завершено
-                        <br>крупных сделок
-                    </p>
-                    <a class="about-blue" href="#" target="_blank">Все кейсы</a>
+    <div class="container">
+        <div class="specialization services__specialization">
+            <h3 class="specialization__title-services">Наши услуги</h3>
+            <h2 class="specialization__title-specialization">Мы специализируемся</h2>
+            <ul class="accounting specialization__accounting">
+                <li class="accounting__items">
+                    <p class="accounting__description">Бухгалтерское<br>обслуживание</p>
                 </li>
-                <li class="about__items-grey">
-                    <h2>90</h2>
-                    <p>Завершено
-                        <br>крупных сделок
-                    </p>
-                    <a class="about-blue" href="#" target="_blank">Все кейсы</a></li>
-            </ul>
-            <ul class="about__items">
-                <li class="about__items-grey">
-                    <h2>90</h2>
-                    <p>Завершено
-                        <br>крупных сделок
-                    </p>
-                    <a class="about-blue" href="#" target="_blank">Все кейсы</a>
+                <li class="accounting__items">
+                    <p class="accounting__description">Бухгалтерское<br>обслуживание</p>
                 </li>
-                <li class="about__items-grey">
-                    <h2>90</h2>
-                    <p>Завершено
-                        <br>крупных сделок
-                    </p>
-                    <a class="about-blue" href="#" target="_blank">Все кейсы</a>
+                <li class="accounting__items">
+                    <p class="accounting__description">Бухгалтерское<br>обслуживание</p>
+                </li>
+                <li class="accounting__items">
+                    <p class="accounting__description">Бухгалтерское<br>обслуживание</p>
+                </li>
+                <li class="accounting__items">
+                    <p class="accounting__description">Бухгалтерское<br>обслуживание</p>
+                </li>
+                <li class="accounting__items">
+                    <p class="accounting__description">Бухгалтерское<br>обслуживание</p>
                 </li>
             </ul>
         </div>
     </div>
 </section>
-
+<section class="about-company">
+    <div class="container">
+        <div class="ivanov-prom about-company">
+            <div class="about-us ivanov-prom__about-us">
+                <h3 class="about-us__title">О нас</h3>
+            </div>
+            <div class="about-main ivanov-prom__about-main">
+                <h2 class="about-main__title">Компания
+                    <br> <span class="about-main__subtitle">ИвановПром</span>
+                </h2>
+                <p class="about-main__description">Lorem Ipsum - это текст-"рыба", часто используемый в печати и
+                    вэб-дизайне. Lorem Ipsum является
+                    стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник
+                    создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов.
+                    Lorem
+                    Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный
+                    дизайн.</p>
+            </div>
+            <div class="block-case ivanov-prom__block-case">
+                <ul class="transactions block-case__transactions">
+                    <li class="transactions__item">
+                        <h2 class="transactions__title">90</h2>
+                        <p class="transactions__description">Завершено
+                            <br>крупных сделок
+                        </p>
+                        <p class="transactions__link">Все кейсы</p>
+                    </li>
+                    <li class="transactions__item">
+                        <h2 class="transactions__title">90</h2>
+                        <p class="transactions__description">Завершено
+                            <br>крупных сделок
+                        </p>
+                        <p class="transactions__link">Все кейсы</p></li>
+                    <li class="transactions__item">
+                        <h2 class="transactions__title">90</h2>
+                        <p class="transactions__description">Завершено
+                            <br>крупных сделок
+                        </p>
+                        <p class="transactions__link">Все кейсы</p>
+                    </li>
+                    <li class="transactions__item">
+                        <h2 class="transactions__title">90</h2>
+                        <p class="transactions__description">Завершено
+                            <br>крупных сделок
+                        </p>
+                        <p class="transactions__link">Все кейсы</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
 <section class="client">
     <div class=" client__column container">
-        <h3>Наши клиенты</h3>
-        <h2>С нами работают</h2>
-        <div class="client__mcr">
-            <ul class="client__mcr_pic">
-                <li><img src="../src/img/microsoft.png" alt="майкрасофт"></li>
-                <li><img src="../src/img/microsoft.png" alt="майкрасофт"></li>
-                <li><img src="../src/img/microsoft.png" alt="майкрасофт"></li>
-                <li><img src="../src/img/microsoft.png" alt="майкрасофт"></li>
-            </ul>
-            <div class="client__mcr-line">
-                <ul class="client__mcr-circle">
-                    <li class="client__mcr-item"></li>
-                    <li class="client__mcr-item"></li>
-                    <li class="client__mcr-item"></li>
-                    <li class="client__mcr-item"></li>
+        <div class="work client__work">
+            <h3 class="work__title-top">Наши клиенты</h3>
+            <h2 class="work__title">С нами работают</h2>
+            <div class="microsoft work__microsoft client__mcr">
+                <ul class="line-preview microsoft__line-preview client__mcr_pic">
+                    <li class="line-preview__item">
+                        <img class="line-preview__img" src="../src/img/microsoft.png" alt="майкрасофт">
+                    </li>
+                    <li class="line-preview__item">
+                        <img class="line-preview__img" src="../src/img/microsoft.png" alt="майкрасофт">
+                    </li>
+                    <li class="line-preview__item">
+                        <img class="line-preview__img" src="../src/img/microsoft.png" alt="майкрасофт">
+                    </li>
+                    <li class="line-preview__item">
+                        <img class="line-preview__img" src="../src/img/microsoft.png" alt="майкрасофт">
+                    </li>
                 </ul>
-                <ul class="client__arrow">
-                    <li>
-                        <a href="#" target="_blank">
-                            <img class="client__arrow-left" src="img/slider__button-prevfff.png" alt="стрелка влево">
-                            <img class="client__arrow-right" src="img/slider__button-nextblue.png" alt="стрелка вправо">
+            </div>
+            <div class="circles microsoft__circles client__mcr-line">
+                <ul class="point circles__point client__mcr-circle">
+                    <li class="point__item client__mcr-item"></li>
+                    <li class="point__item client__mcr-item"></li>
+                    <li class="point__item client__mcr-item"></li>
+                    <li class="point__item client__mcr-item"></li>
+                </ul>
+                <ul class="arrow circles__arrow client__arrow">
+                    <li class="arrow__item">
+                        <a class="arrow__link" href="#" target="_blank">
+                            <img class="arrow__img-left client__arrow-left" src="img/slider__button-prevfff.png"
+                                 alt="стрелка влево">
+                            <img class="arrow__img-right client__arrow-right" src="img/slider__button-nextblue.png"
+                                 alt="стрелка вправо">
                         </a>
                     </li>
                 </ul>
@@ -209,83 +221,88 @@
         </div>
     </div>
 </section>
-
 <section class="feedback">
-    <div class="feedback__column container">
-        <h3>Отзывы</h3>
-        <h2>Ваши благодарности</h2>
-        <div class="feedback__content">
-            <p>Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является
-                стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник
-                создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem
-                Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. </p>
-            <div class="feedback__content-line">
-                <img src="../src/img/girl.png" alt="оператор">
-                <div class="feedback__content-info">
-                    <h5>Екатерина Иванова</h5>
-                    <span>Директор ООО “Раз-два”</span>
+    <div class="container">
+        <div class="gratitude feedback__gratitude">
+            <h3 class="gratitude__title-top">Отзывы</h3>
+            <h2 class="gratitude__title">Ваши благодарности</h2>
+            <div class="business-card gratitude__business-card">
+                <p class="business-card__text">
+                    Lorem Ipsum - это текст-"рыба", часто используемый в печати и
+                    вэб-дизайне. Lorem Ipsum является
+                    стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник
+                    создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов.
+                    Lorem
+                    Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне.
+                </p>
+                <div class="manager business-card__manager">
+                    <img class="manager__img" src="../src/img/girl.png" alt="оператор">
+                    <div class="info manager__info">
+                        <h5 class="info__title">Екатерина Иванова</h5>
+                        <span class="info__subtitle">Директор ООО “Раз-два”</span>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="feedback__line">
-            <ul class="feedback__line-circle">
-                <li class="feedback__line-item"></li>
-                <li class="feedback__line-item"></li>
-                <li class="feedback__line-item"></li>
-                <li class="feedback__line-item"></li>
-            </ul>
-            <ul class="feedback__arrow">
-                <li>
-                    <a href="#" target="_blank">
-                        <img class="feedback__arrow-left" src="img/slider__button-prevfff.png" alt="стрелка влево">
-                        <img class="feedback__arrow-right" src="img/slider__button-nextblue.png" alt="стрелка вправо">
-                    </a>
-                </li>
-            </ul>
+            <div class="circles gratitude__circles">
+                <ul class="point circles__point">
+                    <li class="point__item"></li>
+                    <li class="point__item"></li>
+                    <li class="point__item"></li>
+                    <li class="point__item"></li>
+                </ul>
+                <ul class="arrow circles__arrow">
+                    <li class="arrow__item">
+                        <a class="arrow__link" href="#" target="_blank">
+                            <img class="arrow__img-left" src="img/slider__button-prevfff.png"
+                                 alt="стрелка влево">
+                            <img class="arrow__img-right" src="img/slider__button-nextblue.png"
+                                 alt="стрелка вправо">
+                        </a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </div>
 </section>
-
 <footer class="footer">
-    <div class="footer__row container">
-        <div class="footer__main">
-            <h2>Связь с нами</h2>
-            <p>У вас остались вопросы? Напишите нам - мы ответим в ближайшее время!</p>
-            <ul class="footer__info">
-                <li>
-                    <img src="img/mobile-white.png" alt="телефон">
-                    <a href="#" target="_blank">8 (111) 222-33-44</a>
-                </li>
-                <li class="footer__info_right">
-                    <img src="img/mail-white.png" alt="почта">
-                    <a href="#" target="_blank">order@buhone.ru</a>
-                </li>
-            </ul>
+    <div class="container">
+        <div class="connection footer__connection">
+            <div class="info-card connection__info-card">
+                <h2 class="info-card__title">Связь с нами</h2>
+                <p class="info-card__text">У вас остались вопросы? Напишите нам - мы ответим в ближайшее время!</p>
+                <ul class="contact info-card__contact">
+                    <li class="contact__item">
+                        <img class="contact__img" src="img/mobile-white.png" alt="телефон">
+                        <a class="contact__link" href="#" target="_blank">8 (111) 222-33-44</a>
+                    </li>
+                    <li class="contact__item">
+                        <img class="contact__img" src="img/mail-white.png" alt="почта">
+                        <a class="contact__link" href="#" target="_blank">order@buhone.ru</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="form connection__form">
+                <ul class="data form__data">
+                    <li class="data__item">
+                        <p class="data__text">Имя</p>
+                        <h5 class="data__title">Иван</h5>
+                        <hr class="data__underline">
+                    </li>
+                    <li class="data__item">
+                        <p class="data__text">Фамилия</p>
+                        <h5 class="data__title">Иванов</h5>
+                        <hr class="data__underline">
+                    </li>
+                    <li class="data__item">
+                        <p class="data__text">Сообщение</p>
+                        <h5 class="data__title">Ваше сообщение</h5>
+                        <hr class="data__underline">
+                    </li>
+                </ul>
+                <button class="button-send form__button">Отправить сообщение</button>
+            </div>
         </div>
-        <div class="footer__form">
-            <ul class="footer__form_info">
-                <li>
-                    <p>Имя</p>
-                    <h5>Иван</h5>
-                    <hr>
-                </li>
-                <li class="footer__form-left">
-                    <p>Фамилия</p>
-                    <h5>Иванов</h5>
-                    <hr>
-                </li>
-            </ul>
-            <ul class="footer__info_message">
-                <p>Сообщение</p>
-                <h5>Ваше сообщение</h5>
-                <hr>
-            </ul>
-            <button class="footer__btn">Отправить сообщение</button>
-        </div>
-
     </div>
 </footer>
-
 </body>
-
 </html>

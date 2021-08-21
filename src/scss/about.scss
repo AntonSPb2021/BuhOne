@@ -1,161 +1,174 @@
 @import "functionFontSize";
 @import "funcWidth";
 
+.about-company {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+}
 
-.about {
+.about-us {
+  font-size: rem(24px);
+  font-weight: 900;
+  line-height: rem(33px);
+}
+
+.ivanov-prom__about-us {
+  margin-top: rem(140px);
+  width: 100%;
   
-  .about__wrap {
-    flex-wrap: wrap;
-  
-    @media (max-width: 992px) {
-      flex-wrap: wrap;
-    }
-  }
-  
-  &__wrap.container {
-  
-    @media (max-width: 992px) {
-      max-width: 600px;
-    }
-    
-    @media (max-width: 776px) {
-      max-width: 600px;
-    }
-  }
-  
-  &__me {
-    width: width(1116px);
-    margin-top: 140px;
-    font-size: rem(24px);
-    font-weight: 900;
-    line-height: 33px;
-  
-    @media (max-width: 415px){
-      margin-top: 40px;
-    }
-    
-    & h3 {
-      //width: width(1116px);
-      //font-size: rem(24px);
-      //font-weight: 900;
-      padding-left: 5px;
-  
-      @media (max-width: 415px){
-        font-size: rem(18px);
-      }
-    }
-  }
-  
-  &__main {
-    width: width(558px);
-    margin-top: 30px;
-  
-    @media (max-width: 992px) {
-      width: 100%;
-    }
-    
-    @media (max-width: 776px) {
-      width: 100%;
-    }
-    
-    & h2 {
-      padding-left: 2px;
-      //width: width(347px);
-      line-height: 69px;
-      font-family: 'Merriweather', sans-serif;
-      font-weight: 900;
-      font-size: rem(48px);
-  
-      @media (max-width: 415px) {
-        font-size: rem(24px);
-        line-height: 29px;
-      }
-    }
-    
-    & p {
-      margin-top: 60px;
-      margin-bottom: 219px;
-      font-size: rem(18px);
-      font-weight: 300;
-      width: width-half(445px);
-      line-height: 25px;
-      margin-left: 10px;
-  
-      @media (max-width: 992px) {
-        margin-bottom: 30px;
-      }
-      
-      @media (max-width: 776px) {
-        margin-bottom: 30px;
-      }
-  
-      @media (max-width: 415px){
-        font-size: rem(12px);
-        margin-top: 30px;
-      }
-    }
-  }
-  
-  &__case {
-    width: width(558px);
-    padding: 0 5px;
-  
-    @media (max-width: 992px) {
-      width: 100%;
-      padding-right: 5px;
-    }
-    
-    @media (max-width: 776px) {
-      width: 100%;
-    }
-    
-    h2 {
-      margin: 30px 0 0 40px;
-      font-size: rem(55px);
-      line-height: 66px;
-      font-weight: 900;
-  
-      @media (max-width: 415px){
-        font-size: rem(24px);
-      }
-    }
-    
-    p {
-      margin: 30px 0 47px 40px;
-      font-weight: 700;
-      font-size: rem(14px);
-      line-height: 18px;
-    }
-    
-    a {
-      margin: 47px 0 0 40px;
-      font-weight: 700;
-      font-size: rem(14px);
-      line-height: 17px;
-      text-decoration: underline;
-    }
-  }
-  
-  &__items {
+  @media (max-width: 980px) {
     display: flex;
-    justify-content: space-around;
-    cursor: pointer;
+    justify-content: center;
+  }
   
-    @media (max-width: 992px) {
-      margin-bottom: 30px;
-    }
-    
-    @media (max-width: 776px) {
-      margin-bottom: 30px;
-    }
-    
-    &:nth-last-child(1) {
-      margin-top: 30px;
-    }
-    
-    & li {
-      width: width-half(262.5px);
-      height: 255px;
-    }
+  @media (max-width: 415px) {
+    margin-top: rem(40px);
   }
 }
+
+.about-us__title {
+  @media (max-width: 450px) {
+    font-size: rem(18px);
+  }
+}
+
+.ivanov-prom__about-main {
+  width: 45%;
+  margin-top: rem(30px);
+  
+  @media (max-width: 1100px) {
+    width: 100%;
+    margin: rem(30px) auto;
+  }
+  
+  @media (max-width: 980px) {
+    display: flex;
+    width: 80%;
+    align-items: center;
+    flex-direction: column;
+  }
+}
+
+.about-main__title {
+  line-height: rem(69px);
+  font-family: 'Merriweather', sans-serif;
+  font-weight: 900;
+  font-size: rem(48px);
+  cursor: pointer;
+  
+  @media (max-width: 980px) {
+    font-size: rem(48px);
+    line-height: rem(39px);
+    display: flex;
+  }
+  
+  @media (max-width: 720px) {
+    font-size: rem(26px);
+  }
+  
+  @media (max-width: 450px) {
+    font-size: rem(18px);
+  }
+}
+
+.about-main__subtitle {
+  @media (max-width: 980px) {
+    margin: 0 rem(10px);
+  }
+  
+  @media (max-width: 720px) {
+    margin: 0 rem(10px);
+  }
+}
+
+.about-main__description {
+  margin: rem(60px) 0 rem(219px) 0;
+  font-size: rem(18px);
+  font-weight: 300;
+  width: 85%;
+  line-height: rem(25px);
+  
+  @media (max-width: 1100px) {
+    margin-bottom: rem(30px);
+  }
+  
+  @media (max-width: 720px) {
+    font-size: rem(16px);
+    margin-top: 30px;
+    line-height: rem(26px);
+  }
+  
+  @media (max-width: 450px) {
+    font-size: rem(12px);
+    width: 100%;
+  }
+}
+
+.ivanov-prom__block-case {
+  width: 55%;
+  
+  @media (max-width: 1100px) {
+    width: 100%;
+  }
+}
+
+.transactions {
+  display: flex;
+  justify-content: space-around;
+  cursor: pointer;
+  flex-wrap: wrap;
+  
+  @media (max-width: 1100px) {
+    margin-bottom: rem(30px);
+    justify-content: space-around;
+  }
+  
+  @media (max-width: 608px) {
+    flex-direction: column;
+    align-content: center;
+  }
+  
+  &__item {
+    width: rem(250px);
+    height: rem(250px);
+    margin: rem(15px) 0;
+    
+    //@media (max-width: 415px) {
+    //  margin-bottom: rem(30px);
+    //}
+    //
+    //&:first-child {
+    //  margin-bottom: rem(20px);
+    //}
+  }
+  
+  &__title {
+    margin: rem(30px) 0 0 rem(40px);
+    font-size: rem(55px);
+    line-height: rem(66px);
+    font-weight: 900;
+    
+    @media (max-width: 415px) {
+      font-size: rem(34px);
+    }
+  }
+  
+  &__description {
+    margin: rem(30px) 0 rem(47px) rem(40px);
+    font-weight: 700;
+    font-size: rem(14px);
+    line-height: rem(18px);
+  }
+  
+  &__link {
+    margin: rem(47px) 0 0 rem(40px);
+    font-weight: 700;
+    font-size: rem(14px);
+    line-height: rem(17px);
+    text-decoration: underline;
+  }
+}
+
+
+

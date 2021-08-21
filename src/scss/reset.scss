@@ -21,7 +21,7 @@ html,body {
   overflow-x: hidden;
   height: 100%;
   width: 100%;
-  font-family: 'Lato';
+  font-family: 'Lato', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -35,4 +35,9 @@ html,body {
   display: flex;
   max-width: 1116px;
   margin: 0 auto;
+  width: 98%;
+  
+  //@media (max-width: 1115px) {
+  //  width: 98%;
+  //}
 }
